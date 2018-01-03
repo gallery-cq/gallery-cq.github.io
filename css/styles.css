@@ -56,9 +56,9 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 100;
 	margin-bottom: 20px;
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3 {
 
 .portfolio-img {
 	width: 100%;
-	max-height: 250px;
+	max-height: 300px;
 	display: block;
 	object-fit: cover;
 }
@@ -120,9 +120,9 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-size: 1.0rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	color: #000;
 	left: 50%;
 	position: absolute;
@@ -165,8 +165,8 @@ h1, h2, h3 {
 }
 .page-nav a,span {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	margin: 0 10px;
 	color: #000;
 }
