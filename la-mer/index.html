@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>La Mer | Chenxi Qian Photography </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -11,8 +13,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-max-width: 100%; 
-  height: auto;
+    max-width: 100%; 
+    height: auto;
     position:absolute;
     left:50%;
     top:50%;
@@ -20,39 +22,48 @@ max-width: 100%;
 }
 
 /* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 0%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+  padding: 6px;
+  margin-top: -30px;
+  color: gray;
+  font-weight: lighter;
+  font-size: 15px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  user-select: none;}
+
+/* Position the "next & previous buttons" to the right */
+.prev {
+  right: 16px;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+
 }
 
+
+
+
+
+
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/*.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
+}*/
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #808080;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: -36px;
   width: 100%;
   text-align: center;
 }
